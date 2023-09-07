@@ -1,0 +1,44 @@
+.box{
+    display: flex;
+    margin-top: 40px;
+    width: 240px;
+    background-color:aliceblue;
+    justify-content: space-between;
+
+}
+
+.box1{
+    display: flex;
+    float: right;
+}
+
+.box2{
+    width: 750px;
+    margin-left: 30px;
+}
+
+.box2 p{
+    border-collapse: collapse;
+    background-color: whitesmoke;
+    margin-left: 20px;
+    border: double thin rgb(229, 227, 225);
+    padding: 8px;
+}
+
+ table{
+    border: solid thin black;
+    margin-bottom: 25px;
+    width: 160px;
+    border-collapse: collapse;
+ }
+ 
+ thead td{
+    border:solid thin black;
+    background-color: whitesmoke;
+ }
+
+ table tr:hover{
+    background-color: whitesmoke;
+    border-radius: 6px;
+}
+
